@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Carattere&family=Dosis&family=Great+Vibes&family=Lovers+Quarrel&family=Major+Mono+Display&family=Manrope&family=Mea+Culpa&family=Monoton&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;1,200&family=PT+Sans&family=Passions+Conflict&family=Questrial&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/bank.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap:30px;
+}
+
+#main h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 2px 4px #272727c3;
+    letter-spacing: 1px;
+}
+
+#main p{
+    width:65vw;
+    line-height: 1.4;
+    text-align: center;
+    color: #f0eeee;
+    text-shadow: 4px 2px 4px #272727c3;
+}
+
+#main button{
+    border-radius: 5px;
+    padding:5px 10px;
+    border: 1px solid #6e6d6d;
+    background:none;
+    cursor: pointer;
+}
+
+#main button a{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#main button:hover{
+    border-bottom: 1px outset #6e6d6d;
+}
+
+#allCust{
+    background-color: #6e6d6d;
+}

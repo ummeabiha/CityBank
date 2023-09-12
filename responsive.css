@@ -1,0 +1,15 @@
+@media(max-width: 484px){
+    #main h1{
+        font-size: 40px;
+    }
+
+    #main span{
+        display: none;
+    }
+}
+
+@media(max-width: 340px){
+    #main h1{
+        font-size: 36px;
+    }
+}

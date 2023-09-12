@@ -1,0 +1,120 @@
+body {
+    background-image: url('./images/transfer.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.customer-container{
+    background-color: #000000ce;
+    box-shadow: 0 2px 4px #00000033;
+    padding: 60px;
+    width: fit-content;
+    border-radius: 8px;
+    text-align: center;
+    color: #d8d8d8;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    margin: 80px auto;
+}
+
+.customer-image {
+    width: 130px; 
+}
+
+.customer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-transform: uppercase;
+}
+
+.transfer label, .customer-info h2{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.customer-info span{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.customer-container button, .custom-alert button{
+    width:fit-content;
+    border-radius: 5px;
+    padding:5px 20px;
+    border: 1px solid #6e6d6d;
+    color: #d8d8d8;
+    background:none;
+    cursor: pointer;
+    margin: auto;
+}
+
+.customer-container button:hover{
+    border-bottom: 1px outset #6e6d6d;
+}
+
+.customer-container button a{
+    color: #d8d8d8;
+    text-decoration: none;
+}
+
+.transfer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+.transfer-label{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#transfer-to, #transfer-amount{
+    color:#d8d8d8;
+    outline: none;
+    background: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #6e6d6d;
+}
+
+#drop-opt{
+    color:#b4b4b4;
+    background-color: #000000f4;
+}
+
+.custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000; 
+    color: #ccc; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 9999; 
+    cursor: pointer;
+}
+
+.custom-alert-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.custom-alert-text {
+    font-size: 18px;
+}
+
